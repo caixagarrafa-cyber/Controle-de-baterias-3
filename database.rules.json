@@ -1,0 +1,9 @@
+{
+  "rules": {
+    "availabilityApp": {
+      ".read": "auth != null && auth.uid === 'COLE_AQUI_O_UID_DO_OPERADOR'",
+      ".write": "auth != null && auth.uid === 'COLE_AQUI_O_UID_DO_OPERADOR'"
+    }
+  }
+}
+
